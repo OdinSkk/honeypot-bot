@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 HONEYPOT_CHANNEL_ID = 1440025458279448678
-BOT_TOKEN = "MTQ0MDAzMDE1MzM2NjU3MzE5MA.GlUFPn.t6P8wSEPQJbCCjNZnXwwycaukjidBIcb65Hmy"
+BOT_TOKEN = "MTQ0MDAzMDE1MzM2NjU3MzE5MA.GlUFPn.t6P8XwwycaukjidBIcb65Hmy"
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -34,3 +34,4 @@ async def on_message(message):
     await bot.process_commands(message)
 
 bot.run(BOT_TOKEN)
+
